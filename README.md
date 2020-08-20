@@ -45,16 +45,16 @@ dotnet run --project ./Ntreev.Crema/client/Ntreev.Crema.ApplicationHost --framew
 
 ## server - console
 
-![Alt text](Ntreev.Crema/cremaserver.png)
+![Alt text](./cremaserver.png)
 
 ## server - application
 
-![Alt text](Ntreev.Crema/cremaserverApp.png)
+![Alt text](./cremaserverApp.png)
 
 ## client - application
 
-![Alt text](Ntreev.Crema/crema.png)
+![Alt text](./crema.png)
 
 ## client - Console
 
-![Alt text](Ntreev.Crema/cremaconsole.png)
+![Alt text](./cremaconsole.png)
