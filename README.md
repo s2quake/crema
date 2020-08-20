@@ -24,7 +24,7 @@ git clone https://github.com/s2quake/crema.git --recursive
 # clone
 git clone https://github.com/s2quake/crema --recursive
 # change directory
-cd font-generator
+cd crema
 # build
 dotnet build ./Ntreev.Crema/crema.sln --framework netcoreapp3.1
 ```
