@@ -8,18 +8,16 @@
             "name": "Server",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/Ntreev.Crema/exe/Debug/netcoreapp3.1/cremaserverApp/cremaserverApp.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/Ntreev.Crema",
+            "program": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/application/cremaserverApp.dll",
+            "cwd": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/application",
             "stopAtEntry": false
         },
         {
             "name": "Client",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/Ntreev.Crema/exe/Debug/netcoreapp3.1/crema/crema.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/Ntreev.Crema",
+            "program": "${workspaceFolder}/exe/Debug/netcoreapp3.1/client/application/crema.dll",
+            "cwd": "${workspaceFolder}/exe/Debug/netcoreapp3.1/client/application",
             "stopAtEntry": false
         }
     ]

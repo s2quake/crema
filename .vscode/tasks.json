@@ -5,7 +5,7 @@
     "tasks": [
         {
             "label": "build",
-            "command": "dotnet build Ntreev.Crema/crema.sln --framework netcoreapp3.1",
+            "command": "dotnet build crema.sln --framework netcoreapp3.1",
             "type": "shell",
             "group": "build",
             "presentation": {
@@ -15,7 +15,7 @@
         },
         {
             "label": "clean",
-            "command": "dotnet clean Ntreev.Crema/crema.sln",
+            "command": "dotnet clean crema.sln",
             "type": "shell",
             "group": "build",
             "presentation": {
