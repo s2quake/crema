@@ -26,21 +26,21 @@ git clone https://github.com/s2quake/crema --recursive
 # change directory
 cd crema
 # build
-dotnet build ./Ntreev.Crema/crema.sln --framework netcoreapp3.1
+dotnet build ./JSSoft.Crema/crema.sln --framework netcoreapp3.1
 ```
 
 ## Run Server (.NET Core 3.1)
 
 ```powershell
 # run server
-dotnet run --project ./Ntreev.Crema/server/Ntreev.Crema.ApplicationHost --framework netcoreapp3.1
+dotnet run --project ./JSSoft.Crema/server/JSSoft.Crema.ApplicationHost --framework netcoreapp3.1
 ```
 
 ## Run Client (.NET Core 3.1)
 
 ```powershell
 # run server
-dotnet run --project ./Ntreev.Crema/client/Ntreev.Crema.ApplicationHost --framework netcoreapp3.1
+dotnet run --project ./JSSoft.Crema/client/JSSoft.Crema.ApplicationHost --framework netcoreapp3.1
 ```
 
 ## server - console

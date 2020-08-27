@@ -1,15 +1,15 @@
-[submodule "Ntreev.Crema"]
-	path = Ntreev.Crema
-	url = https://github.com/s2quake/Ntreev.Crema.git
-[submodule "Ntreev.Library"]
-	path = Ntreev.Library
-	url = https://github.com/s2quake/Ntreev.Library.git
-[submodule "Ntreev.Library.Commands"]
-	path = Ntreev.Library.Commands
-	url = https://github.com/s2quake/CommandLineParser.git
-[submodule "Ntreev.ModernUI.Framework"]
-	path = Ntreev.ModernUI.Framework
-	url = https://github.com/s2quake/Ntreev.ModernUI.Framework.git
 [submodule "JSSoft.Communication"]
 	path = JSSoft.Communication
 	url = https://github.com/s2quake/JSSoft.Communication.git
+[submodule "JSSoft.Library"]
+	path = JSSoft.Library
+	url = ../../s2quake/JSSoft.Library.git
+[submodule "JSSoft.Library.Commands"]
+	path = JSSoft.Library.Commands
+	url = ../../s2quake/JSSoft.Library.Commands.git
+[submodule "JSSoft.ModernUI.Framework"]
+	path = JSSoft.ModernUI.Framework
+	url = ../../s2quake/JSSoft.ModernUI.Framework.git
+[submodule "JSSoft.Crema"]
+	path = JSSoft.Crema
+	url = ../../s2quake/JSSoft.Crema.git
