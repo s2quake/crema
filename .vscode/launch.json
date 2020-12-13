@@ -17,7 +17,19 @@
             "type": "coreclr",
             "request": "launch",
             "program": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/console/cremaserver.dll",
+            "args": "run ~/Projects/CremaDataBase/resource_repo --prompt",
             "cwd": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/console",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Client-Console",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/exe/Debug/netcoreapp3.1/client/console/cremaconsole.dll",
+            "args": "",
+            "cwd": "${workspaceFolder}/exe/Debug/netcoreapp3.1/client/console",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {

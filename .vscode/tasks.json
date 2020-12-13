@@ -4,8 +4,28 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "Build-All",
             "command": "dotnet build crema.sln --framework netcoreapp3.1",
+            "type": "shell",
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-Server-Console",
+            "command": "dotnet build ./JSSoft.Crema/server/JSSoft.Crema.ConsoleHost --framework netcoreapp3.1",
+            "type": "shell",
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build-Client-Console",
+            "command": "dotnet build ./JSSoft.Crema/client/JSSoft.Crema.ConsoleHost --framework netcoreapp3.1",
             "type": "shell",
             "group": "build",
             "presentation": {
