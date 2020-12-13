@@ -5,11 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Server",
+            "name": "Server-App",
             "type": "coreclr",
             "request": "launch",
             "program": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/application/cremaserverApp.dll",
             "cwd": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/application",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Server-Console",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/console/cremaserver.dll",
+            "cwd": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/console",
             "stopAtEntry": false
         },
         {
