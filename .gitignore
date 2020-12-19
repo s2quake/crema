@@ -3,3 +3,5 @@
 /bin
 /exe
 /obj
+logs/
+**/.DS_Store
