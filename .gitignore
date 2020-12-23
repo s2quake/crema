@@ -1,7 +1,8 @@
-/.vs
-/.vscode
-/bin
-/exe
-/obj
+.vs/
+.vscode/
+bin/
+publish/
+obj/
 logs/
-**/.DS_Store
+.DS_Store
+**/launchSettings.json
