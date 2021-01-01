@@ -4,8 +4,8 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build-All",
-            "command": "dotnet build crema.sln --framework netcoreapp3.1",
+            "label": "build client",
+            "command": "dotnet build ./JSSoft.Crema/client.sln --framework netcoreapp3.1",
             "type": "shell",
             "group": "build",
             "presentation": {
@@ -14,17 +14,7 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "Build-Server-Console",
-            "command": "dotnet build ./JSSoft.Crema/server/JSSoft.Crema.ConsoleHost --framework netcoreapp3.1",
-            "type": "shell",
-            "group": "build",
-            "presentation": {
-                "reveal": "always"
-            },
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "Build-Client-Console",
+            "label": "build client console",
             "command": "dotnet build ./JSSoft.Crema/client/JSSoft.Crema.ConsoleHost --framework netcoreapp3.1",
             "type": "shell",
             "group": "build",
@@ -34,8 +24,38 @@
             "problemMatcher": "$msCompile"
         },
         {
+            "label": "build server",
+            "command": "dotnet build ./JSSoft.Crema/server.sln --framework netcoreapp3.1",
+            "type": "shell",
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build server console",
+            "command": "dotnet build ./JSSoft.Crema/server/JSSoft.Crema.ConsoleHost --framework netcoreapp3.1",
+            "type": "shell",
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build all",
+            "command": "dotnet build ./JSSoft.Crema/crema.sln --framework netcoreapp3.1",
+            "type": "shell",
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "clean",
-            "command": "dotnet clean crema.sln",
+            "command": "dotnet clean",
             "type": "shell",
             "group": "build",
             "presentation": {

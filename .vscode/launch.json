@@ -5,39 +5,41 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Server-App",
+            "name": "launch-client-application",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/application/cremaserverApp.dll",
-            "cwd": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/application",
+            "preLaunchTask": "build client",
+            "program": "${workspaceFolder}/JSSoft.Crema/client/JSSoft.Crema.ApplicationHost/bin/Debug/netcoreapp3.1/cremaApp.dll",
+            "cwd": "${workspaceFolder}/JSSoft.Crema/client/JSSoft.Crema.ApplicationHost/bin/Debug/netcoreapp3.1",
             "stopAtEntry": false
         },
         {
-            "name": "Server-Console",
+            "name": "launch-client-console",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/console/cremaserver.dll",
-            "args": "run ~/Projects/CremaDataBase/resource_repo --prompt",
-            "cwd": "${workspaceFolder}/exe/Debug/netcoreapp3.1/server/console",
+            "preLaunchTask": "build client",
+            "program": "${workspaceFolder}/JSSoft.Crema/client/JSSoft.Crema.ConsoleHost/bin/Debug/netcoreapp3.1/crema.dll",
+            "cwd": "${workspaceFolder}/JSSoft.Crema/client/JSSoft.Crema.ConsoleHost/bin/Debug/netcoreapp3.1",
             "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
-            "name": "Client-Console",
+            "name": "launch-server-application",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/exe/Debug/netcoreapp3.1/client/console/cremaconsole.dll",
-            "args": "",
-            "cwd": "${workspaceFolder}/exe/Debug/netcoreapp3.1/client/console",
-            "console": "integratedTerminal",
+            "preLaunchTask": "build server",
+            "program": "${workspaceFolder}/JSSoft.Crema/server/JSSoft.Crema.ApplicationHost/bin/Debug/netcoreapp3.1/cremaserverApp.dll",
+            "cwd": "${workspaceFolder}/JSSoft.Crema/server/JSSoft.Crema.ApplicationHost/bin/Debug/netcoreapp3.1",
             "stopAtEntry": false
         },
         {
-            "name": "Client",
+            "name": "launch-server-console",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/exe/Debug/netcoreapp3.1/client/application/crema.dll",
-            "cwd": "${workspaceFolder}/exe/Debug/netcoreapp3.1/client/application",
+            "preLaunchTask": "build server",
+            "program": "${workspaceFolder}/JSSoft.Crema/server/JSSoft.Crema.ConsoleHost/bin/Debug/netcoreapp3.1/cremaserver.dll",
+            "cwd": "${workspaceFolder}/JSSoft.Crema/server/JSSoft.Crema.ConsoleHost/bin/Debug/netcoreapp3.1",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         }
     ]
